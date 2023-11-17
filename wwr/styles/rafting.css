@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Edu+TAS+Beginner&display=swap');
+
+* {
+    max-width: 1500px;
+    margin: auto;
+}
+
+
+h1, h2, h3 {
+    font-family: 'Edu TAS Beginner', serif;
+    color: #1c3144;
+}
+
+p {
+    font-family: 'Barlow', serif;
+    color: #1c3144;
+}
+
+h1 {
+    position: absolute;
+}
+
+article {
+    position: absolute;
+    opacity: 50%;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+article img {
+    float: right;
+}
+
+.navBar {
+    text-decoration: none;
+}
+
+
+
+
+
+
