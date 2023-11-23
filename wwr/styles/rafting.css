@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow&family=Edu+TAS+Beginner&display=swap');
 
 * {
-    max-width: 1500px;
-    margin: auto;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 
@@ -25,6 +25,10 @@ article {
     opacity: 50%;
 }
 
+.hero {
+    position: relative;
+}
+
 .hero img {
     display: block;
     width: 100%;
@@ -39,10 +43,8 @@ article img {
     text-decoration: none;
 }
 
-.sociallinks {
+.sociallinks a {
     text-decoration: none;
 }
-
-
 
 
