@@ -8,35 +8,49 @@
 
 h1, h2, h3 {
     font-family: 'Edu TAS Beginner', serif;
-    color: #1c3144;
+    color: white;
+    font-size: 40px;
 }
 
-p {
+article p {
     font-family: 'Barlow', serif;
-    color: #1c3144;
+    color: white;
+    font-size: 20px;
 }
 
 h1 {
-    position: absolute;
+    text-align: center;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(8, 26, 48, 0.788);
+
 }
 
 article {
-    position: absolute;
-    opacity: 50%;
+    width: 75%;
+    margin: 0 auto;
+    padding: 50px;
+    background-image: linear-gradient(#0f2644c9, #1b0f44c9);
+    height: 165px;
+    margin-top: 30px;
 }
 
 .hero {
     position: relative;
 }
 
-.hero img {
+.hero > img {
     display: block;
     width: 100%;
     height: auto;
+    position: absolute;
+    z-index: -100;
 }
 
-article img {
+.hero article img {
     float: right;
+    width: 300px;
+    padding: 0px 0px 20px 20px;
 }
 
 .navBar {
@@ -45,6 +59,16 @@ article img {
 
 .sociallinks a {
     text-decoration: none;
+}
+
+.nTitle {
+    padding-top: 225px;
+    padding-bottom: 25px;
+    margin-top: 15%;
+}
+
+.hist {
+    color:rgba(8, 26, 48, 0.788);
 }
 
 
