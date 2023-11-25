@@ -35,15 +35,21 @@ main {
     max-width: 840px;
 }
 
+
 aside h2 {
     width: 20rem;
     border: 1px solid rgba(0, 0, 0, 0.2);
     background-color: #95cddf;
     color: #212121;
     text-align: center;
-    position: relative;
+    position: absolute;
     top: -265px;
     left: 572px;
+} 
+
+
+aside {
+    position: relative;
 }
 
 aside img {
