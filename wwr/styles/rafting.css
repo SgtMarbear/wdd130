@@ -47,6 +47,10 @@ article {
     z-index: -100;
 }
 
+#awes {
+    margin-top: 10px;
+}
+
 .hero article img {
     float: right;
     width: 300px;
