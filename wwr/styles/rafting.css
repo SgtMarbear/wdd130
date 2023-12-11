@@ -160,7 +160,6 @@ form {
     width: 650px;
     margin: 0 auto;
     padding: 1.5rem;
-    border: 1px solid rgba(0, 0, 0, 0,1);
     border-radius: 0.5rem;
     background-color: #eee;
     display: grid;
@@ -185,6 +184,11 @@ label {
 input, select, textarea {
     padding: 0.5rem;
     font-size: 1.1rem;
+}
+
+.trial ul {
+    margin-top: 16px; 
+    margin-left: 0px;
 }
 
 
