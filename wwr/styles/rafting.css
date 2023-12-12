@@ -195,3 +195,13 @@ input, select, textarea {
     width: 40px;
     padding-left: 20px;
 }
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+}
