@@ -1,0 +1,115 @@
+/* General Styles */
+* {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+  
+header {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    align-items: center;
+}   
+
+.navBar {
+    background-color: #1c3144;
+    overflow: hidden;
+    display: flex;
+
+}
+
+.navBar a:hover {
+    background-color: #FCE172;
+    color: #1c3144;
+}
+
+.navBar a {
+    color: #fff;
+    padding: 19px 24px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url('homeHImg.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+  
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+  
+p {
+    font-size: 1.2em;
+}
+  
+/* Newsletter Section */
+.newsletter {
+    text-align: center;
+    padding: 50px 0;
+}
+  
+input[type="text"],
+input[type="email"],
+button {
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+}
+  
+/* Call to Action */
+.call-to-action {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 50px 0;
+}
+  
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #ff6600;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+  
+.cta-button:hover {
+    background-color: #d45500;
+}
+  
+/* Grid Layout */
+.grid-layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    padding: 50px;
+}
+  
+.grid-item {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+  
+.grid-item img {
+    width: 100%;
+    height: auto;
+}
+
+
+.sociallinkimg {
+    width: 40px;
+    padding-left: 20px;
+    float: right;
+}
+
